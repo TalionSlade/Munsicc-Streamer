@@ -57,7 +57,7 @@
 					<p>
 						<?php echo $account->getError(Constants::$loginFailed); ?>
 						<label for="loginUsername">Username</label>
-						<input id="loginUsername" name="loginUsername" type="text" placeholder="e.g. bartSimpson" value="<?php getInputValue('loginUsername') ?>" required>
+						<input id="loginUsername" name="loginUsername" type="text" placeholder="e.g. ArpanGhosh" value="<?php getInputValue('loginUsername') ?>" required>
 					</p>
 					<p>
 						<label for="loginPassword">Password</label>
@@ -80,7 +80,7 @@
 						<?php echo $account->getError(Constants::$usernameCharacters); ?>
 						<?php echo $account->getError(Constants::$usernameTaken); ?>
 						<label for="username">Username</label>
-						<input id="username" name="username" type="text" placeholder="e.g. bartSimpson" value="<?php getInputValue('username') ?>" required>
+						<input id="username" name="username" type="text" placeholder="e.g. ArpanGhosh" value="<?php getInputValue('username') ?>" required>
 					</p>
 
 					<p>
